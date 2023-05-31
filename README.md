@@ -17,21 +17,27 @@ git clone https://github.com/idcpj/qt-basic-framework.git
 本项目包含以下文件和文件夹：
 
 ```
-├── .gitignore
-├── README.md
-├── framework.pri
-├── tests
-│   ├── unit-tests
-│   │   ├── test-framework.cpp
-│   │   └── test-framework.h
-│   └── batch-tests
-│       ├── batch-test.cpp
-│       └── batch-test.h
-└── src
-    ├── main.cpp
-    ├── mainwindow.cpp
-    ├── mainwindow.h
-    └── mainwindow.ui
+demo
+ ├── framework.pro
+ ├── README.md
+ ├── src
+ │   ├── main.cpp
+ │   ├── mainwindow.cpp
+ │   ├── mainwindow.h
+ │   ├── mainwindow.ui
+ │   ├── src.pri
+ │   └── tools
+ │       ├── cal.h
+ │       ├── date.h
+ │       └── tools.pri
+ └── tests
+     ├── build_batch_test.h
+     ├── qtestrunner.h
+     ├── tests.pri
+     ├── test_add.cpp
+     ├── test_add.h
+     ├── test_add2.cpp
+     └── test_add2.h
 ```
 
 - `.gitignore`：Git 忽略文件列表。
